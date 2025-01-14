@@ -2,6 +2,7 @@
   <nav class="bg-white dark:bg-gray-800 antialiased">
     <div class="max-w-screen-xl px-4 mx-auto 2xl:px-0 py-4">
       <div class="flex items-center justify-between">
+  
         <div class="flex items-center space-x-8">
           <div class="shrink-0">
             <a href="#" title="" class="">
@@ -10,33 +11,26 @@
             </a>
           </div>
   
-          <ul class="flex flex-row md:flex-row items-center justify-start gap-6 md:gap-8 py-3 sm:justify-center">
+
+
+          <ul class="hidden lg:flex items-center justify-start gap-6 md:gap-8 py-3 sm:justify-center">
             <li>
               <a href="#" title="" class="flex text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
-                Home
+                Нүүр
               </a>
             </li>
             <li class="shrink-0">
               <a href="#" title="" class="flex text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
-                Best Sellers
+                Ангилал
               </a>
             </li>
             <li class="shrink-0">
               <a href="#" title="" class="flex text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
-                Gift Ideas
-              </a>
-            </li>
-            <li class="shrink-0">
-              <a href="#" title="" class="text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
-                Today's Deals
-              </a>
-            </li>
-            <li class="shrink-0">
-              <a href="#" title="" class="text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
-                Sell
+                Бүтээлийн сан
               </a>
             </li>
           </ul>
+          @include('partials.nav.search')
         </div>
   
         <div class="flex items-center lg:space-x-2">
@@ -229,3 +223,23 @@
     </div>
   </nav>
 </nav>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+  const menuToggleButton = document.querySelector('[data-collapse-toggle="ecommerce-navbar-menu-1"]');
+  const menu = document.getElementById("ecommerce-navbar-menu-1");
+
+  menuToggleButton.addEventListener("click", function () {
+    const isMenuOpen = menu.classList.contains("hidden");
+    
+    if (isMenuOpen) {
+      menu.classList.remove("hidden");
+      menu.classList.add("block");
+    } else {
+      menu.classList.remove("block");
+      menu.classList.add("hidden");
+    }
+  });
+});
+
+</script>

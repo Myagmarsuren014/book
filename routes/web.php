@@ -8,23 +8,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::prefix('/daatgal')->group(function () {
+Route::prefix('/bookStore')->group(function () {
 
-    Route::get('/form', [PageController::class, 'daatgal_form'])->name('daatgal.form');
-    Route::get('/next', [PageController::class, 'daatgal_next'])->name('daatgal.next');
-    Route::get('/next2', [PageController::class, 'daatgal_next'])->name('daatgal.next2');
-    Route::get('/purchase', [PageController::class, 'daatgal_purchase'])->name('daatgal.purchase');
-    Route::get('/qpay', [PageController::class, 'daatgal_qpay'])->name('daatgal.qpay');
-    Route::get('/verified', [PageController::class, 'daatgal_verified'])->name('daatgal.verified');
-    Route::get('/option', [PageController::class, 'daatgal_option'])->name('daatgal.option');
+    Route::get('/home', [PageController::class, 'bookStore_home'])->name('bookStore.home');
+ 
 
 
 });
 
-Route::prefix('/admin')->group(function () {
-    Route::get('/table', [PageController::class, 'admin_table'])->name('admin.table');
-  
-});
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
