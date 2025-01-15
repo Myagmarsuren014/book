@@ -1,4 +1,4 @@
-<div class="w-full lg:h-72 bg-primary_ld flex flex-col overflow-x-auto px-10 md:px-20 lg:px-32">
+<div class="w-full lg:h-72 bg-primary-950 flex flex-col overflow-x-auto px-10 md:px-20 lg:px-32">
       <div class="w-full flex justify-between py-8 ">
         <div class="flex lg:gap-0 gap-8">
           <div class="pt-5 text-white text-xs ">
