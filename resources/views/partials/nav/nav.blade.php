@@ -47,7 +47,7 @@
           <!-- Cart Slider -->
           <div
             id="CartSider"
-            class="fixed top-0 right-0 w-1/2 z-10 h-full bg-gray-50 shadow-lg transform translate-x-full transition-transform duration-300 sm:z-50"
+            class=" fixed top-0 right-0 w-1/2 z-10 h-full bg-gray-50 shadow-lg transform translate-x-full transition-transform duration-300 sm:z-50"
           >
            <!-- Cart Header -->
             <div class="flex items-center justify-between p-4 border-b">
@@ -143,7 +143,7 @@
 
           <div
             id="menuSider"
-            class="fixed top-0 right-0 w-1/2 z-50 h-full bg-gray-50 shadow-lg transform translate-x-full transition-transform duration-300"
+            class="hidden fixed top-0 right-0 w-1/2 z-50 h-full bg-gray-50 shadow-lg transform translate-x-full transition-transform duration-300"
           >
            <!-- Menu Header -->
             <div class="flex items-center justify-between p-4 border-b">
