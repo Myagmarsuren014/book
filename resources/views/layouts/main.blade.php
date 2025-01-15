@@ -41,7 +41,7 @@
 </head>
 
 <body class="h-full antialiased bg-gray-100">
-    <div class="min-h-full">
+    <div>
         @include('partials.nav.nav')
         <main>
             {{ $slot }}
