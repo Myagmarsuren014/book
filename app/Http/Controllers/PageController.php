@@ -10,4 +10,9 @@ class PageController extends Controller
     {
         return view('pages.bookStore.home');
     }
+    public function bookStore_buySection(Request $request)
+    {
+        return view('pages.bookStore.buySection');
+    }
+
 }
