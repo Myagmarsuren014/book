@@ -2,9 +2,6 @@
     @include('pages.bookStore.hero')
     @include('pages.bookStore.delivery')
     @include('pages.bookStore.slider')
-<<<<<<< HEAD
-    @include('pages.bookStore.legalBookSlider')
-=======
     @include('pages.bookStore.bestSeller')
     <div class="bg-gray-100 w-full py-5 mx-auto max-w-6xl rounded-lg px-4 lg:px-8">
         <div class="flex justify-center items-center mb-5">
@@ -12,7 +9,6 @@
                 Бүх бараанууд
             </h2>
         </div>
->>>>>>> 448da867c3d305d7c0c8852f2955cd317d8caac2
 
         <div class="mx-auto max-w-7xl px-4 my-8">
             <div class="grid grid-cols-1 gap-4 sm:grid-cols-4">
