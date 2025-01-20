@@ -14,5 +14,10 @@ class PageController extends Controller
     {
         return view('pages.bookStore.buySection');
     }
+    public function bookStore_souvnerBuy(Request $request)
+    {
+        return view('pages.bookStore.souvnerBuy');
+    }
+
 
 }
