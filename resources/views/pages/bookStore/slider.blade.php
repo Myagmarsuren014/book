@@ -51,13 +51,13 @@
                 <div class="product-card flex flex-col items-center w-full md:w-[256px]">
                     <div class="card-image mb-4">
                         <a href="https://legaldata.mn/book/view/370">
-                            <img src="https://legaldata.mn/storage/pictures/2780/01JHHDTA9PHDC7582DGBPHZ1R3.png"
+                            <img src="/souvner.jpg"
                                 alt="Эрүүгийн эрх зүйн хууль ёсны зарчим" class="object-cover rounded-md">
                         </a>
                     </div>
                     <div class="price-block text-center">
                         <span class="text-lg font-bold text-green-600">50,000₮</span>
-                        <a href="{{ route('bookStore.buySection') }}"
+                        <a href="{{ route('bookStore.souvnerBuy') }}"
                             class="block mt-2 text-white bg-blue-500 hover:bg-blue-700 px-4 py-2 rounded-md">
                             Сагсанд хийх
                         </a>
