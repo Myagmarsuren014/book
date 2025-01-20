@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="h-full" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html class="h-full w-full" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
     <meta charset="utf-8">
@@ -40,7 +40,7 @@
     @stack('scripts')
 </head>
 
-<body class="h-full antialiased bg-gray-100">
+<body class="h-full w-full antialiased bg-gray-100">
     <div>
         @include('partials.nav.nav')
         <main>

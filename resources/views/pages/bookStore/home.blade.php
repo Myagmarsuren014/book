@@ -23,33 +23,33 @@
                                     Номын ангилал</button>
                                 <div x-show="open.includes(1)" class="pl-4 py-2">
                                     <ul class="text-sm text-gray-600">
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#">Хууль, эрх
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#">Хууль, эрх
                                                 зүй</a></li>
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#">Хууль, эрх зүйн
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#">Хууль, эрх зүйн
                                                 сэтгүүл</a></li>
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#">Эрх зүйн акт,
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#">Эрх зүйн акт,
                                                 эмхэтгэл, орчуулга</a></li>
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#">Өгүүлэл,
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#">Өгүүлэл,
                                                 илтгэлийн эмхэтгэл</a></li>
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#">Эрх зүйн
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#">Эрх зүйн
                                                 боловсрол</a></li>
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#">Хуулийн ховор,
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#">Хуулийн ховор,
                                                 хуучин ном</a></li>
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#">Хуулийн тайлбар,
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#">Хуулийн тайлбар,
                                                 толь</a></li>
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#">Нийгэм, улс
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#">Нийгэм, улс
                                                 төр</a></li>
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#">Эдийн засаг,
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#">Эдийн засаг,
                                                 бизнесс</a></li>
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#">Шинжлэх ухаан,
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#">Шинжлэх ухаан,
                                                 танин мэдэхүй</a></li>
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#">Шашин,
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#">Шашин,
                                                 философи</a></li>
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#">Өөртөө туслах,
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#">Өөртөө туслах,
                                                 хувь хүний хөгжил</a></li>
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#">Хүүхдийн ном</a>
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#">Хүүхдийн ном</a>
                                         </li>
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#">Уран зохиол, яруу
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#">Уран зохиол, яруу
                                                 найраг</a></li>
                                     </ul>
                                 </div>
@@ -61,11 +61,11 @@
                                     Бэлэг дурсгал </button>
                                 <div x-show="open.includes(3)" class="pl-4 py-2">
                                     <ul class="text-sm text-gray-600">
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#">Алчуур</a></li>
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#">Зангиа</a></li>
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#">Даавуун уут</a>
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#">Алчуур</a></li>
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#">Зангиа</a></li>
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#">Даавуун уут</a>
                                         </li>
-                                        <li class="hover:bg-gray-200 cursor-pointer"><a href="#"> Энгэрийн
+                                        <li class="hover:bg-gray-200 cursor-pointer py-2"><a href="#"> Энгэрийн
                                                 тэмдэг</a></li>
 
                                     </ul>

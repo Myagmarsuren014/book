@@ -47,7 +47,7 @@
           <!-- Cart Slider -->
           <div
             id="CartSider"
-            class=" fixed top-0 right-0 w-1/2 z-10 h-full bg-gray-50 shadow-lg transform translate-x-full transition-transform duration-300 sm:z-50"
+            class="s fixed top-0 right-0 w-1/2 z-10 h-full bg-gray-50 shadow-lg transform translate-x-full transition-transform duration-300 sm:z-50"
           >
            <!-- Cart Header -->
             <div class="flex items-center justify-between p-4 border-b">

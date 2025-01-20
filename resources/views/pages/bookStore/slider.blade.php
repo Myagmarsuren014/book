@@ -30,7 +30,7 @@
                     </div>
                     <div class="price-block text-center">
                         <span class="text-lg font-bold text-green-600">50,000₮</span>
-                        <a href="#" wire:click.prevent="addToCart()"
+                        <a href="{{route('bookStore.buySection')}}" wire:click.prevent="addToCart()"
                             class="block mt-2 text-white bg-blue-500 hover:bg-blue-700 px-4 py-2 rounded-md">
                             Сагсанд хийх
                         </a>
