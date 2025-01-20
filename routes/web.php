@@ -12,10 +12,6 @@ Route::prefix('/bookStore')->group(function () {
 
     Route::get('/home', [PageController::class, 'bookStore_home'])->name('bookStore.home');
     Route::get('buySection', [PageController::class, 'bookStore_buySection'])->name('bookStore.buySection');
-
- 
-
-
 });
 
 

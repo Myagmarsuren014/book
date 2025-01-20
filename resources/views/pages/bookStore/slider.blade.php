@@ -1,4 +1,4 @@
-<div class="bg-gray-100 w-full py-5 mx-auto max-w-6xl rounded-lg px-4 lg:px-8">
+<div class="bg-white w-full py-5 mx-auto max-w-6xl rounded-lg px-4 lg:px-8">
     <div class="flex justify-center items-center mb-5">
         <h2 class="text-3xl font-semibold text-center border-b-2 border-blue-500">
             Шинээр нэмэгдсэн
@@ -18,9 +18,9 @@
         </button>
 
         <!-- Product Slider -->
-        <div id="product-slider" class="product-slider flex gap-4 overflow-x-auto scrollbar-hide">
+        <div id="product-slider" class="product-slider flex gap-8 overflow-x-auto scrollbar-hide">
             <!-- Repeatable Product Cards -->
-            <div class="single-slide bg-white p-2 rounded-lg shadow-lg">
+            <div class="single-slide  p-2 border-2 border-gray-200 rounded-lg">
                 <div class="product-card flex flex-col items-center w-full md:w-[256px]">
                     <div class="card-image mb-4">
                         <a href="https://legaldata.mn/book/view/370">
@@ -30,7 +30,7 @@
                     </div>
                     <div class="price-block text-center">
                         <span class="text-lg font-bold text-green-600">50,000₮</span>
-                        <a href="{{route('bookStore.buySection')}}" wire:click.prevent="addToCart()"
+                        <a href="{{ route('bookStore.buySection') }}"
                             class="block mt-2 text-white bg-blue-500 hover:bg-blue-700 px-4 py-2 rounded-md">
                             Сагсанд хийх
                         </a>
@@ -45,6 +45,30 @@
                 </div>
             </div>
             <!-- Add more products here -->
+            <div class="single-slide  p-2 border-2 border-gray-200 rounded-lg">
+                <div class="product-card flex flex-col items-center w-full md:w-[256px]">
+                    <div class="card-image mb-4">
+                        <a href="https://legaldata.mn/book/view/370">
+                            <img src="https://legaldata.mn/storage/pictures/2780/01JHHDTA9PHDC7582DGBPHZ1R3.png"
+                                alt="Эрүүгийн эрх зүйн хууль ёсны зарчим" class="object-cover rounded-md">
+                        </a>
+                    </div>
+                    <div class="price-block text-center">
+                        <span class="text-lg font-bold text-green-600">50,000₮</span>
+                        <a href="{{ route('bookStore.buySection') }}"
+                            class="block mt-2 text-white bg-blue-500 hover:bg-blue-700 px-4 py-2 rounded-md">
+                            Сагсанд хийх
+                        </a>
+                    </div>
+                    <div class="product-header mt-3 text-center">
+                        <h3 class="text-md font-semibold">
+                            <a href="https://legaldata.mn/book/view/370">Эрүүгийн эрх зүйн хууль ёсны зарчим /Онол,
+                                философи/</a>
+                        </h3>
+                        <a href="#" class="text-sm text-gray-600">Б.Мөнх-Эрдэнэ</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Dots Navigation -->
