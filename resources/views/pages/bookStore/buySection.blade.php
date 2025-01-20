@@ -1,15 +1,15 @@
 <x-main-layout>
 
-    <div class="container mx-auto flex justify-center py-4">
-        <div class="w-full max-w-4xl">
-            <nav class="mb-4 text-gray-600">
-                <a href="#" class="hover:underline">Нүүр хуудас</a> &gt; 
+    <div class="container mx-auto flex justify-center py-4 ">
+        <div class="w-full max-w-5xl bg-white rounded-lg">
+            <nav class="mb-4 text-gray-600 my-4">
+                <a href="#" class="hover:underline px-4">Нүүр хуудас</a> &gt; 
                 <span>Номын дэлгэрэнгүй мэдээлэл</span>
             </nav>
 
-            <div class="flex flex-col md:flex-row gap-6">
+            <div class="flex flex-col md:flex-row gap-6 ">
                 <div class="max-w-xs">
-                    <img src="/test.png" alt="Book Cover" class="w-full border border-gray-300">
+                    <img src="/test.png" alt="Book Cover" class="w-full">
                 </div>
 
                 <div class="max-w-lg">
@@ -58,7 +58,7 @@
             </div>
             <div class="py-4 text-center">
                 <h1 class="font-bold py-4 text-green-500">Танилцуулга</h1>
-                <ul class="list-disc list-inside text-left">
+                <ul class="list-disc list-inside text-left px-4">
                     <li>Энэхүү ном нь эрүүгийн эрх зүйн үндсэн зарчмуудыг танилцуулна.</li>
                     <li>Онол болон философийн талаарх ойлголтуудыг багтаасан.</li>
                     <li>Хууль эрх зүйн чиглэлээр суралцагчдад зориулсан гарын авлага.</li>
