@@ -1,4 +1,4 @@
-<div class="bg-gray-100 w-full py-5 mx-auto max-w-6xl rounded-lg px-4 lg:px-8">
+<div class="bg-white w-full py-5 mx-auto max-w-6xl rounded-lg px-4 lg:px-8">
     <div class="flex justify-center items-center mb-5">
         <h2 class="text-3xl font-semibold text-center border-b-2 border-blue-500">
             БОРЛУУЛАЛТААРАА ТЭРГҮҮЛСЭН НОМ
@@ -7,7 +7,7 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4">
         <!-- Repeatable Product Cards -->
-        <div class="bg-white p-3 shadow-lg flex flex-col items-center w-48">
+        <div class="border-x-2 border-gray-200 p-3  flex flex-col items-center w-48">
             <div class="flex items-center justify-between w-full mb-2">
                 <span class="bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">ШИЛДЭГ</span>
             </div>
@@ -27,26 +27,7 @@
             </div>
         </div>
 
-        <!-- Example for another book -->
-        <div class="bg-white p-3 shadow-lg flex flex-col items-center w-48">
-            <div class="flex items-center justify-between w-full mb-2">
-                <span class="bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">ШИЛДЭГ</span>
-            </div>
-            <a href="#">
-                <img src="https://via.placeholder.com/150" alt="Book Title"
-                    class="object-cover rounded-md w-full h-32 mb-3">
-            </a>
-            <div class="text-center">
-                <h3 class="text-sm font-semibold mb-2">
-                    <a href="#">
-                        Book Title Here
-                    </a>
-                </h3>
-                <p class="text-gray-600 text-xs">Author Name</p>
-                <p class="text-red-600 font-bold mt-2 text-sm">Price</p>
-                <button class="mt-2 bg-orange-500 text-white px-3 py-1 text-xs rounded shadow">САГСАНД ХИЙХ</button>
-            </div>
-        </div>
+
 
         <!-- Add more product cards here to complete top 10 -->
         <!-- Copy and modify the structure above for each additional book -->
