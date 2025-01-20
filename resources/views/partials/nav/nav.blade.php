@@ -13,7 +13,7 @@
           <!-- Menu (Hidden on phones, visible on larger screens) -->
           <ul class="hidden lg:flex items-center justify-start gap-6 md:gap-8 py-3 sm:justify-center text-black">
             <li>
-              <a href="#" title="" class="flex text-sm font-medium text-gray-900 hover:text-primary-700 dark:hover:text-primary-500">
+              <a href="/bookStore/home" title="" class="flex text-sm font-medium text-gray-900 hover:text-primary-700 dark:hover:text-primary-500">
                 Нүүр
               </a>
             </li>
@@ -74,29 +74,70 @@
               </button>
             </div>
             <!-- Cart Content -->
-            <div class="p-4 bg-gray-200 rounded-lg shadow-lg mx-auto py-4">
-              <div class="flex items-center space-x-4 gap-4">
-                <!-- Product Image -->
-                <div class="w-1/4">
-                  <img src="/asset/LDLogo2.png" alt="product" class="h-10 w-auto rounded-lg">
+            <div class="mt-4 space-y-4">
+              <!-- Item Template -->
+              <div class="mt-4 space-y-4">
+                <!-- Item Template -->
+                <div class="flex items-center bg-gray-100 p-4 rounded-lg gap-4">
+                    <!-- Image Section -->
+                    <div class="w-16 h-16 bg-gray-700 rounded-lg overflow-hidden">
+                        <img src="/test.png" alt="Apple iPhone 15" class="object-cover w-full h-full">
+                    </div>
+                    <!-- Item Details Section -->
+                    <div class="ml-4 flex-1">
+                        <h3 class="text-sm font-semibold">Нэр</h3>
+                        <div class="flex items-center space-x-2 mt-2">
+                            <button class="p-1 rounded text-black">-</button>
+                            <span class="px-2">2</span>
+                            <button class="p-1 rounded text-black">+</button>
+                            <span class="ml-4 text-gray-800 font-bold">Үнэ: </span>
+                            <span class="ml-auto text-gray-800 font-bold">19,000₮</span>
+                        </div>
+                        <div class="mt-2 text-sm text-gray-500">
+                            <button class="text-red-500 underline">
+                              Хасах
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                
-                <!-- Product Name and Description -->
-                <div class="w-3/4">
-                  <h3 class="text-xl font-semibold text-gray-900">Product Name</h3>
-                  <p class="text-gray-700 mt-2">
-                    This is a brief description of the product. It provides details about the features, benefits, or any other information.
-                  </p>
-                </div>
-              </div>
             </div>
-                    
+              <!-- Add More Items Here -->
           </div>
+  
+          <!-- Summary -->
+          <div class="bg-gray-100 p-4 mt-4 rounded-lg">
+            <div class="mt-2 space-y-2">
+              <div class="flex justify-start gap-2 items-center text-black">
+                <span class="font-medium">Нийт:</span>
+                <span class="font-semibold">19,000 ₮</span>
+              </div>                      
+            </div>
+            <button class="mt-4 w-full py-2 gap-2 text-center flex items-center justify-center gap-x-2 border rounded-lg bg-green-500 hover:bg-green-600 text-white font-medium">
+              <span class="text-lg font-medium">Төлөх</span>
+              <svg
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                stroke="#FFFFFF"
+                stroke-width="2"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z"
+                  fill="#FFFFFF"
+                />
+              </svg>
+            </button>            
+          </div>
+          
+        </div>
 
           
 
         
-          <div class="relative inline-block text-left">
+        <div class="relative inline-block text-left">
             <!-- Profile Button -->
             <button id="profileButton" type="button" 
               class="inline-flex items-center rounded-full  p-2 text-gray-700 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"

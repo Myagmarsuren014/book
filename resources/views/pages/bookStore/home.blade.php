@@ -110,7 +110,7 @@
                                     <div class="bg-white shadow-md rounded-md p-4 group relative">
                                         <div class="relative overflow-hidden rounded-md">
                                             <img src="/test.png" alt="Book Title"
-                                                class="w-full h-30 object-cover mb-4 group-hover:blur-sm transition-all duration-300 ease-out">
+                                                class="w-full h-30 object-cover mb-4 group-hover:scale-125 transition-all duration-300 ease-out">
                                             <div
                                                 class="absolute bottom-0 left-0 w-full h-1/2 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out">
                                                 <button
@@ -141,7 +141,7 @@
                                     <div class="bg-white shadow-md rounded-md p-4 group relative">
                                         <div class="relative overflow-hidden rounded-md">
                                             <img src="/test.png" alt="Book Title"
-                                                class="w-full h-30 object-cover mb-4 group-hover:blur-sm transition-all duration-300 ease-out">
+                                                class="w-full h-30 object-cover mb-4 group-hover:scale-125 transition-all duration-300 ease-out">
                                             <div
                                                 class="absolute bottom-0 left-0 w-full h-1/2 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out">
                                                 <button
@@ -168,7 +168,7 @@
                                     <div class="bg-white shadow-md rounded-md p-4 group relative">
                                         <div class="relative overflow-hidden rounded-md">
                                             <img src="/test.png" alt="Book Title"
-                                                class="w-full h-30 object-cover mb-4 group-hover:blur-sm transition-all duration-300 ease-out">
+                                                class="w-full h-30 object-cover mb-4 group-hover:scale-125 transition-all duration-300 ease-out">
                                             <div
                                                 class="absolute bottom-0 left-0 w-full h-1/2 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out">
                                                 <button

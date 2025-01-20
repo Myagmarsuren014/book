@@ -4,34 +4,44 @@
         <!-- Item 1 -->
         <div class="w-full flex-shrink-0 relative" data-carousel-item>
             <img src="/Glamourkbbanner.png" class="w-full h-full object-cover" alt="Image 1">
-            <button class="absolute bottom-12 left-32 bg-green-500 hover:bg-green-700 ease-in duration-100 text-white text-sm px-4 py-2 rounded z-50 
-  sm:bottom-10 sm:left-24 
-  md:bottom-8 md:left-20 
-  lg:bottom-12 lg:left-32">
-  дэлгэрэнгүй
-</button>
-
-                  </div>
+            <button class="absolute bottom-12 left-32 bg-green-500 hover:bg-green-700 ease-in duration-100 text-white px-6 py-3 rounded z-50 
+                hidden sm:block">
+                дэлгэрэнгүй
+            </button>
+        </div>
         <!-- Item 2 -->
         <div class="w-full flex-shrink-0 relative" data-carousel-item>
             <img src="/Glamourkbbanner.png" class="w-full h-full object-cover" alt="Image 2">
-            <button class="absolute bottom-12 left-32 bg-green-500 hover:bg-green-700 ease-in duration-100 text-white px-6 py-3 rounded z-50">дэлгэрэнгүй</button>
+            <button class="absolute bottom-12 left-32 bg-green-500 hover:bg-green-700 ease-in duration-100 text-white px-6 py-3 rounded z-50 
+                hidden sm:block">
+                дэлгэрэнгүй
+            </button>
         </div>
         <!-- Item 3 -->
         <div class="w-full flex-shrink-0 relative" data-carousel-item>
             <img src="/Glamourkbbanner.png" class="w-full h-full object-cover" alt="Image 3">
-            <button class="absolute bottom-12 left-32 bg-green-500 hover:bg-green-700 ease-in duration-100 text-white px-6 py-3 rounded z-50">дэлгэрэнгүй</button>
+            <button class="absolute bottom-12 left-32 bg-green-500 hover:bg-green-700 ease-in duration-100 text-white px-6 py-3 rounded z-50 
+                hidden sm:block">
+                дэлгэрэнгүй
+            </button>
         </div>
         <!-- Item 4 -->
         <div class="w-full flex-shrink-0 relative" data-carousel-item>
             <img src="/Glamourkbbanner.png" class="w-full h-full object-cover" alt="Image 4">
-            <button class="absolute bottom-12 left-32 bg-green-500 hover:bg-green-700 ease-in duration-100 text-white px-6 py-3 rounded z-50">дэлгэрэнгүй</button>
+            <button class="absolute bottom-12 left-32 bg-green-500 hover:bg-green-700 ease-in duration-100 text-white px-6 py-3 rounded z-50 
+                hidden sm:block">
+                дэлгэрэнгүй
+            </button>
         </div>
         <!-- Item 5 -->
         <div class="w-full flex-shrink-0 relative" data-carousel-item>
             <img src="/Glamourkbbanner.png" class="w-full h-full object-cover" alt="Image 5">
-            <button class="absolute bottom-12 left-32 bg-green-500 hover:bg-green-700 ease-in duration-100 text-white px-6 py-3 rounded z-50">дэлгэрэнгүй</button>
+            <button class="absolute bottom-12 left-32 bg-green-500 hover:bg-green-700 ease-in duration-100 text-white px-6 py-3 rounded z-50 
+                hidden sm:block">
+                дэлгэрэнгүй
+            </button>
         </div>
+        
     </div>
 
     <!-- Slider indicators -->
