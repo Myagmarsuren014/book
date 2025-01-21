@@ -4,10 +4,10 @@
         <div class="w-full max-w-5xl mb-10 rounded-lg bg-white ">
             <nav class="mb-4 text-gray-600 my-4">
                 <a href="#" class="hover:underline px-4">Нүүр хуудас</a> &gt;
-                <span>Бүтээгдэхүүний дэлгэрэнгүй мэдээлэл</span>
+                <span> Бүтээгдэхүүний дэлгэрэнгүй мэдээлэл</span>
             </nav>
 
-            <div class="flex flex-col md:flex-row gap-6 ">
+            <div class="flex flex-col md:flex-row gap-6 mx-4">
                 <div class="max-w-xs">
                     <img src="/souvner.jpg" alt="Book Cover" class="w-full">
                 </div>
@@ -31,23 +31,26 @@
                         </tr>
                     </table>
 
+                    <h3 class="font-bold">Танилцуулга</h3>
+                    <p class="text-xs text-justify mb-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima vel accusamus animi fuga repellendus dolorem nemo modi reprehenderit! Dolorem veritatis sapiente quas? Suscipit sit a, sunt nihil delectus architecto enim.
+                    </p>
+
                     <div class="flex items-center gap-4">
                         <select class="border border-gray-300 rounded px-3 py-2">
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
                         </select>
-                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">САГСАНД
+                        <button class="bg-green-500 text-xs text-white px-4 py-2 rounded hover:bg-green-600">САГСАНД
                             НЭМЭХ</button>
-                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">ХУДАЛДАЖ
+                        <button class="bg-green-500 text-xs text-white px-4 py-2 rounded hover:bg-green-600">ХУДАЛДАЖ
                             АВАХ</button>
                     </div>
                 </div>
 
             </div>
             <div class="flex items-center justify-center gap-4 mx-auto my-10">
-                <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600" onclick="showPopup()">
-                    Танилцуулга</button>
                 <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
                     onclick="showPopup1()">Үнэлгээ өгөх</button>
             </div>
@@ -209,13 +212,6 @@
 
 
 <script>
-    // Function to show the popup
-    function showPopup() {
-        const popupContainer = document.getElementById('popup-container');
-        popupContainer.classList.remove('hidden');
-        popupContainer.classList.add('flex');
-        document.addEventListener('keydown', handleEscape);
-    }
 
     function showPopup1() {
         const popupContainer = document.getElementById('popup-container1');
@@ -226,15 +222,6 @@
 
     function closePopup1() {
         const popupContainer = document.getElementById('popup-container1');
-        popupContainer.classList.add('hidden');
-        popupContainer.classList.remove('flex');
-        document.removeEventListener('keydown', handleEscape);
-    }
-
-
-    // Function to close the popup
-    function closePopup() {
-        const popupContainer = document.getElementById('popup-container');
         popupContainer.classList.add('hidden');
         popupContainer.classList.remove('flex');
         document.removeEventListener('keydown', handleEscape);

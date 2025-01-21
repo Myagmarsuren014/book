@@ -46,12 +46,13 @@
 
     <!-- Slider indicators -->
     <div class="absolute z-30 flex bottom-5 left-1/2 -translate-x-1/2 space-x-3">
-        <button class="w-3 h-3 rounded-full bg-gray-400" aria-current="true" data-carousel-slide-to="0"></button>
-        <button class="w-3 h-3 rounded-full bg-gray-400" data-carousel-slide-to="1"></button>
-        <button class="w-3 h-3 rounded-full bg-gray-400" data-carousel-slide-to="2"></button>
-        <button class="w-3 h-3 rounded-full bg-gray-400" data-carousel-slide-to="3"></button>
-        <button class="w-3 h-3 rounded-full bg-gray-400" data-carousel-slide-to="4"></button>
+        <button class="w-3 h-3 sm:w-2 sm:h-2 md:w-2.5 md:h-2.5 rounded-full bg-gray-400" aria-current="true" data-carousel-slide-to="0"></button>
+        <button class="w-3 h-3 sm:w-2 sm:h-2 md:w-2.5 md:h-2.5 rounded-full bg-gray-400" data-carousel-slide-to="1"></button>
+        <button class="w-3 h-3 sm:w-2 sm:h-2 md:w-2.5 md:h-2.5 rounded-full bg-gray-400" data-carousel-slide-to="2"></button>
+        <button class="w-3 h-3 sm:w-2 sm:h-2 md:w-2.5 md:h-2.5 rounded-full bg-gray-400" data-carousel-slide-to="3"></button>
+        <button class="w-3 h-3 sm:w-2 sm:h-2 md:w-2.5 md:h-2.5 rounded-full bg-gray-400" data-carousel-slide-to="4"></button>
     </div>
+    
 </div>
 
 <script>

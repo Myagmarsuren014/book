@@ -44,27 +44,37 @@
                         </tr>
                     </table>
 
+                    <h3 class="font-bold">Танилцуулга</h3>
+                    <p class="my-4 text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt praesentium fugit pariatur esse, blanditiis, ratione atque obcaecati culpa veniam at necessitatibus molestias eum veritatis sequi voluptatem fugiat alias tempore. Consectetur?</p>
                     <div class="flex items-center gap-4">
                         <select class="border border-gray-300 rounded px-3 py-2">
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
                         </select>
-                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">САГСАНД НЭМЭХ</button>
-                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">ХУДАЛДАЖ АВАХ</button>
+                        <button class="bg-green-500 text-white text-xs px-4 py-2 rounded hover:bg-green-600">САГСАНД НЭМЭХ</button>
+                        <button class="bg-green-500 text-white text-xs px-4 py-2 rounded hover:bg-green-600">ХУДАЛДАЖ АВАХ</button>
                     </div>
+                    
                 </div>
-                
             </div>
-            <div class="py-4 text-center">
-                <h1 class="font-bold py-4 text-green-500">Танилцуулга</h1>
-                <ul class="list-disc list-inside text-left px-4">
-                    <li>Энэхүү ном нь эрүүгийн эрх зүйн үндсэн зарчмуудыг танилцуулна.</li>
-                    <li>Онол болон философийн талаарх ойлголтуудыг багтаасан.</li>
-                    <li>Хууль эрх зүйн чиглэлээр суралцагчдад зориулсан гарын авлага.</li>
-                    <li>Зохиогчийн олон жилийн судалгааны үр дүнг агуулсан.</li>
-                    <li>Хууль эрх зүйн практик үйл ажиллагаанд ашиглах боломжтой.</li>
-                    <li>Хялбар уншигдахаар бүтэцлэгдсэн.</li>
+            <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
+                <h2 style="text-align: center;" class="text-3xl font-semibold">Сэтгэгдэл</h2>
+                <ul style="list-style: none; padding: 0;">
+                    <!-- Example comment -->
+                    <li
+                        style="display: flex; align-items: center; margin-bottom: 15px; text-align: left; background: #f9f9f9; border-radius: 10px; padding: 10px;">
+                        <img src="/souvner.jpg" alt="Profile Picture"
+                            style="width: 40px; height: 40px; border-radius: 50%; margin-right: 10px;">
+                        <div>
+                            <p style="margin: 0; font-weight: bold;">John Doe</p>
+                            <p style="margin: 5px 0; color: #555;">This is a great article! Very informative.</p>
+                            <div>
+                                <span style="color: gold; font-size: 18px;">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Add more comments similarly -->
                 </ul>
             </div>
         </div>
