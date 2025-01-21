@@ -4,7 +4,7 @@
         @include('pages.bookStore.delivery')
         @include('pages.bookStore.slider')
         @include('pages.bookStore.bestSeller')
-        <div class="bg-white w-full py-5 mx-auto max-w-6xl rounded-lg px-4 lg:px-8">
+        <div class="bg-white w-full py-5 mx-auto rounded-lg px-4 lg:px-8">
             <div class="flex justify-center items-center mb-5">
                 <h2 class="text-3xl font-semibold text-center border-b-2 border-blue-500">
                     Бүх бараанууд
