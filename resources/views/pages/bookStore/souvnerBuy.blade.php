@@ -30,6 +30,10 @@
                             <td class="py-2">55 х 55</td>
                         </tr>
                     </table>
+                    <h3 class="font-bold">Танилцуулга</h3>
+                    <p class="my-4 text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt
+                        praesentium fugit pariatur esse, blanditiis, ratione atque obcaecati culpa veniam at
+                        necessitatibus molestias eum veritatis sequi voluptatem fugiat alias tempore. Consectetur?</p>
 
                     <div class="flex items-center gap-4">
                         <select class="border border-gray-300 rounded px-3 py-2">
@@ -42,12 +46,12 @@
                         <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">ХУДАЛДАЖ
                             АВАХ</button>
                     </div>
+
                 </div>
 
             </div>
             <div class="flex items-center justify-center gap-4 mx-auto my-10">
-                <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600" onclick="showPopup()">
-                    Танилцуулга</button>
+
                 <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
                     onclick="showPopup1()">Үнэлгээ өгөх</button>
             </div>
@@ -74,23 +78,7 @@
 
 
 
-            <div class="hidden fixed inset-0 bg-gray-800 bg-opacity-50  items-center justify-center z-50"
-                id="popup-container">
-                <div class="bg-white rounded-lg p-6 max-w-lg shadow-lg relative">
-                    <button class="absolute top-2 right-2" onclick="closePopup()">
-                        &times;
-                    </button>
-                    <h1 class="font-bold py-4 text-green-500 text-center">Танилцуулга</h1>
-                    <ul class="list-disc list-inside text-left px-4">
-                        <li>Энэхүү ном нь эрүүгийн эрх зүйн үндсэн зарчмуудыг танилцуулна.</li>
-                        <li>Онол болон философийн талаарх ойлголтуудыг багтаасан.</li>
-                        <li>Хууль эрх зүйн чиглэлээр суралцагчдад зориулсан гарын авлага.</li>
-                        <li>Зохиогчийн олон жилийн судалгааны үр дүнг агуулсан.</li>
-                        <li>Хууль эрх зүйн практик үйл ажиллагаанд ашиглах боломжтой.</li>
-                        <li>Хялбар уншигдахаар бүтэцлэгдсэн.</li>
-                    </ul>
-                </div>
-            </div>
+
 
             <div id="popup-container1"tabindex="-1" aria-hidden="true"
                 class="hidden fixed inset-0 bg-gray-800 bg-opacity-50  items-center justify-center z-50">
@@ -145,8 +133,7 @@
                                                         d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
                                                 </svg>
                                             </button>
-                                            <button type="button" aria-label="2 stars" class="star"
-                                                data-value="2">
+                                            <button type="button" aria-label="2 stars" class="star" data-value="2">
                                                 <svg class="w-8 h-8 text-gray-400 hover:text-yellow-500 transition"
                                                     fill="currentColor" viewBox="0 0 24 24">
                                                     <path
